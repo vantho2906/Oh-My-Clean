@@ -1,0 +1,26 @@
+{
+  "name": "oh-my-clean",
+  "version": "1.0.0",
+  "description": "cleaning sofa service",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.1",
+    "sqlite3": "^5.1.2"
+  }
+}
